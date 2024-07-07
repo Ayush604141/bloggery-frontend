@@ -1,7 +1,6 @@
 import { Alert, Paper, Typography } from "@mui/material";
 import Card from "../Components/Card";
 import Navbar from "../Components/Navbar";
-import "../css/Profile.css";
 import { useSelector } from "react-redux";
 
 const Profile = () => {

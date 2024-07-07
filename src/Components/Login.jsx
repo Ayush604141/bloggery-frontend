@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setError, setUser } from "../reducers/userSlice";
-import "../css/Login.css";
 import { Alert, Button, Typography } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import { ColorRing } from "react-loader-spinner";

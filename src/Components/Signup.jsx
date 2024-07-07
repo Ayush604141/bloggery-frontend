@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setError, setUser } from "../reducers/userSlice";
-import "../css/Login.css";
 import { Alert, Button, TextField, Typography } from "@mui/material";
 
 const Signup = () => {

@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from "react-redux";
-import "../css/Blogs.css";
 import Card from "../Components/Card";
 import { useEffect } from "react";
 import { fetchBlog } from "../reducers/blogSlice";
@@ -20,6 +19,8 @@ const Blogs = () => {
           blogs.map((blog_item) => {
             return <Card blog={blog_item} key={blog_item?._id} />;
           })}
+          {!blogs && <div>
+            No Blogs till now.</div>}
       </div>
     </>
   );

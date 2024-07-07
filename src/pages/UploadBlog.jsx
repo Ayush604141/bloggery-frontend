@@ -1,5 +1,4 @@
 import { AiFillFolder } from "react-icons/ai";
-import "../css/UploadBlogs.css";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchBlog, postBlog } from "../reducers/blogSlice";

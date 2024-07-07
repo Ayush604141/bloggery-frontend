@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import "../css/Card.css";
 import { useNavigate } from "react-router-dom";
 
 const Card = ({ blog }) => {

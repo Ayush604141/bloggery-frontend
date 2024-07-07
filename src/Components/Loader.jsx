@@ -1,4 +1,3 @@
-import "../css/Loader.css";
 import { Triangle } from "react-loader-spinner";
 const Loader = () => {
   return (
